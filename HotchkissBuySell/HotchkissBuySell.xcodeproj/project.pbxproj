@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		735F69641E53D2CA0005A9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F69631E53D2CA0005A9C8 /* AppDelegate.swift */; };
+		735F69661E53D2CA0005A9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F69651E53D2CA0005A9C8 /* ViewController.swift */; };
+		735F69691E53D2CB0005A9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F69671E53D2CB0005A9C8 /* Main.storyboard */; };
+		735F696B1E53D2CB0005A9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735F696A1E53D2CB0005A9C8 /* Assets.xcassets */; };
+		735F696E1E53D2CB0005A9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F696C1E53D2CB0005A9C8 /* LaunchScreen.storyboard */; };
+		735F69791E53D2CB0005A9C8 /* HotchkissBuySellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F69781E53D2CB0005A9C8 /* HotchkissBuySellTests.swift */; };
+		735F69841E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F69831E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		735F69751E53D2CB0005A9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 735F69581E53D2CA0005A9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 735F695F1E53D2CA0005A9C8;
+			remoteInfo = HotchkissBuySell;
+		};
+		735F69801E53D2CB0005A9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 735F69581E53D2CA0005A9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 735F695F1E53D2CA0005A9C8;
+			remoteInfo = HotchkissBuySell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		735F69601E53D2CA0005A9C8 /* HotchkissBuySell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotchkissBuySell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		735F69631E53D2CA0005A9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		735F69651E53D2CA0005A9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		735F69681E53D2CB0005A9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		735F696A1E53D2CB0005A9C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		735F696D1E53D2CB0005A9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		735F696F1E53D2CB0005A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735F69741E53D2CB0005A9C8 /* HotchkissBuySellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotchkissBuySellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		735F69781E53D2CB0005A9C8 /* HotchkissBuySellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotchkissBuySellTests.swift; sourceTree = "<group>"; };
+		735F697A1E53D2CB0005A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735F697F1E53D2CB0005A9C8 /* HotchkissBuySellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotchkissBuySellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		735F69831E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotchkissBuySellUITests.swift; sourceTree = "<group>"; };
+		735F69851E53D2CB0005A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		735F695D1E53D2CA0005A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735F69711E53D2CB0005A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735F697C1E53D2CB0005A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		735F69571E53D2CA0005A9C8 = {
+			isa = PBXGroup;
+			children = (
+				735F69621E53D2CA0005A9C8 /* HotchkissBuySell */,
+				735F69771E53D2CB0005A9C8 /* HotchkissBuySellTests */,
+				735F69821E53D2CB0005A9C8 /* HotchkissBuySellUITests */,
+				735F69611E53D2CA0005A9C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		735F69611E53D2CA0005A9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				735F69601E53D2CA0005A9C8 /* HotchkissBuySell.app */,
+				735F69741E53D2CB0005A9C8 /* HotchkissBuySellTests.xctest */,
+				735F697F1E53D2CB0005A9C8 /* HotchkissBuySellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		735F69621E53D2CA0005A9C8 /* HotchkissBuySell */ = {
+			isa = PBXGroup;
+			children = (
+				735F69631E53D2CA0005A9C8 /* AppDelegate.swift */,
+				735F69651E53D2CA0005A9C8 /* ViewController.swift */,
+				735F69671E53D2CB0005A9C8 /* Main.storyboard */,
+				735F696A1E53D2CB0005A9C8 /* Assets.xcassets */,
+				735F696C1E53D2CB0005A9C8 /* LaunchScreen.storyboard */,
+				735F696F1E53D2CB0005A9C8 /* Info.plist */,
+			);
+			path = HotchkissBuySell;
+			sourceTree = "<group>";
+		};
+		735F69771E53D2CB0005A9C8 /* HotchkissBuySellTests */ = {
+			isa = PBXGroup;
+			children = (
+				735F69781E53D2CB0005A9C8 /* HotchkissBuySellTests.swift */,
+				735F697A1E53D2CB0005A9C8 /* Info.plist */,
+			);
+			path = HotchkissBuySellTests;
+			sourceTree = "<group>";
+		};
+		735F69821E53D2CB0005A9C8 /* HotchkissBuySellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				735F69831E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift */,
+				735F69851E53D2CB0005A9C8 /* Info.plist */,
+			);
+			path = HotchkissBuySellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		735F695F1E53D2CA0005A9C8 /* HotchkissBuySell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735F69881E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySell" */;
+			buildPhases = (
+				735F695C1E53D2CA0005A9C8 /* Sources */,
+				735F695D1E53D2CA0005A9C8 /* Frameworks */,
+				735F695E1E53D2CA0005A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotchkissBuySell;
+			productName = HotchkissBuySell;
+			productReference = 735F69601E53D2CA0005A9C8 /* HotchkissBuySell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		735F69731E53D2CB0005A9C8 /* HotchkissBuySellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735F698B1E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySellTests" */;
+			buildPhases = (
+				735F69701E53D2CB0005A9C8 /* Sources */,
+				735F69711E53D2CB0005A9C8 /* Frameworks */,
+				735F69721E53D2CB0005A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				735F69761E53D2CB0005A9C8 /* PBXTargetDependency */,
+			);
+			name = HotchkissBuySellTests;
+			productName = HotchkissBuySellTests;
+			productReference = 735F69741E53D2CB0005A9C8 /* HotchkissBuySellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		735F697E1E53D2CB0005A9C8 /* HotchkissBuySellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735F698E1E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySellUITests" */;
+			buildPhases = (
+				735F697B1E53D2CB0005A9C8 /* Sources */,
+				735F697C1E53D2CB0005A9C8 /* Frameworks */,
+				735F697D1E53D2CB0005A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				735F69811E53D2CB0005A9C8 /* PBXTargetDependency */,
+			);
+			name = HotchkissBuySellUITests;
+			productName = HotchkissBuySellUITests;
+			productReference = 735F697F1E53D2CB0005A9C8 /* HotchkissBuySellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		735F69581E53D2CA0005A9C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Kim";
+				TargetAttributes = {
+					735F695F1E53D2CA0005A9C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 72YYJ825DR;
+						ProvisioningStyle = Automatic;
+					};
+					735F69731E53D2CB0005A9C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 72YYJ825DR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 735F695F1E53D2CA0005A9C8;
+					};
+					735F697E1E53D2CB0005A9C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 72YYJ825DR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 735F695F1E53D2CA0005A9C8;
+					};
+				};
+			};
+			buildConfigurationList = 735F695B1E53D2CA0005A9C8 /* Build configuration list for PBXProject "HotchkissBuySell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 735F69571E53D2CA0005A9C8;
+			productRefGroup = 735F69611E53D2CA0005A9C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				735F695F1E53D2CA0005A9C8 /* HotchkissBuySell */,
+				735F69731E53D2CB0005A9C8 /* HotchkissBuySellTests */,
+				735F697E1E53D2CB0005A9C8 /* HotchkissBuySellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		735F695E1E53D2CA0005A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735F696E1E53D2CB0005A9C8 /* LaunchScreen.storyboard in Resources */,
+				735F696B1E53D2CB0005A9C8 /* Assets.xcassets in Resources */,
+				735F69691E53D2CB0005A9C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735F69721E53D2CB0005A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735F697D1E53D2CB0005A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		735F695C1E53D2CA0005A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735F69661E53D2CA0005A9C8 /* ViewController.swift in Sources */,
+				735F69641E53D2CA0005A9C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735F69701E53D2CB0005A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735F69791E53D2CB0005A9C8 /* HotchkissBuySellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735F697B1E53D2CB0005A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735F69841E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		735F69761E53D2CB0005A9C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 735F695F1E53D2CA0005A9C8 /* HotchkissBuySell */;
+			targetProxy = 735F69751E53D2CB0005A9C8 /* PBXContainerItemProxy */;
+		};
+		735F69811E53D2CB0005A9C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 735F695F1E53D2CA0005A9C8 /* HotchkissBuySell */;
+			targetProxy = 735F69801E53D2CB0005A9C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		735F69671E53D2CB0005A9C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735F69681E53D2CB0005A9C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		735F696C1E53D2CB0005A9C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				735F696D1E53D2CB0005A9C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		735F69861E53D2CB0005A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		735F69871E53D2CB0005A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		735F69891E53D2CB0005A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72YYJ825DR;
+				INFOPLIST_FILE = HotchkissBuySell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danielapps.HotchkissBuySell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		735F698A1E53D2CB0005A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 72YYJ825DR;
+				INFOPLIST_FILE = HotchkissBuySell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danielapps.HotchkissBuySell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		735F698C1E53D2CB0005A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 72YYJ825DR;
+				INFOPLIST_FILE = HotchkissBuySellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danielapps.HotchkissBuySellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotchkissBuySell.app/HotchkissBuySell";
+			};
+			name = Debug;
+		};
+		735F698D1E53D2CB0005A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 72YYJ825DR;
+				INFOPLIST_FILE = HotchkissBuySellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danielapps.HotchkissBuySellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotchkissBuySell.app/HotchkissBuySell";
+			};
+			name = Release;
+		};
+		735F698F1E53D2CB0005A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 72YYJ825DR;
+				INFOPLIST_FILE = HotchkissBuySellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danielapps.HotchkissBuySellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HotchkissBuySell;
+			};
+			name = Debug;
+		};
+		735F69901E53D2CB0005A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 72YYJ825DR;
+				INFOPLIST_FILE = HotchkissBuySellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = danielapps.HotchkissBuySellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HotchkissBuySell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		735F695B1E53D2CA0005A9C8 /* Build configuration list for PBXProject "HotchkissBuySell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735F69861E53D2CB0005A9C8 /* Debug */,
+				735F69871E53D2CB0005A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735F69881E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735F69891E53D2CB0005A9C8 /* Debug */,
+				735F698A1E53D2CB0005A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		735F698B1E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735F698C1E53D2CB0005A9C8 /* Debug */,
+				735F698D1E53D2CB0005A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		735F698E1E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735F698F1E53D2CB0005A9C8 /* Debug */,
+				735F69901E53D2CB0005A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 735F69581E53D2CA0005A9C8 /* Project object */;
+}
