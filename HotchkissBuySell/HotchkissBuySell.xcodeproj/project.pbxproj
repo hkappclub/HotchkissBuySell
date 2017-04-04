@@ -14,6 +14,9 @@
 		735F696E1E53D2CB0005A9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735F696C1E53D2CB0005A9C8 /* LaunchScreen.storyboard */; };
 		735F69791E53D2CB0005A9C8 /* HotchkissBuySellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F69781E53D2CB0005A9C8 /* HotchkissBuySellTests.swift */; };
 		735F69841E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F69831E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift */; };
+		73CB63EF1E94624C00283D07 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB63EE1E94624C00283D07 /* MainTableViewController.swift */; };
+		73CB63F11E94637600283D07 /* Dataholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB63F01E94637600283D07 /* Dataholder.swift */; };
+		73CB63F31E9463FD00283D07 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CB63F21E9463FD00283D07 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		735F697F1E53D2CB0005A9C8 /* HotchkissBuySellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotchkissBuySellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735F69831E53D2CB0005A9C8 /* HotchkissBuySellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotchkissBuySellUITests.swift; sourceTree = "<group>"; };
 		735F69851E53D2CB0005A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73CB63EE1E94624C00283D07 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		73CB63F01E94637600283D07 /* Dataholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataholder.swift; sourceTree = "<group>"; };
+		73CB63F21E9463FD00283D07 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				735F69631E53D2CA0005A9C8 /* AppDelegate.swift */,
 				735F69651E53D2CA0005A9C8 /* ViewController.swift */,
 				735F69671E53D2CB0005A9C8 /* Main.storyboard */,
+				73CB63F01E94637600283D07 /* Dataholder.swift */,
+				73CB63EE1E94624C00283D07 /* MainTableViewController.swift */,
+				73CB63F21E9463FD00283D07 /* Item.swift */,
 				735F696A1E53D2CB0005A9C8 /* Assets.xcassets */,
 				735F696C1E53D2CB0005A9C8 /* LaunchScreen.storyboard */,
 				735F696F1E53D2CB0005A9C8 /* Info.plist */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CB63F31E9463FD00283D07 /* Item.swift in Sources */,
 				735F69661E53D2CA0005A9C8 /* ViewController.swift in Sources */,
+				73CB63EF1E94624C00283D07 /* MainTableViewController.swift in Sources */,
 				735F69641E53D2CA0005A9C8 /* AppDelegate.swift in Sources */,
+				73CB63F11E94637600283D07 /* Dataholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +526,7 @@
 				735F698A1E53D2CB0005A9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735F698B1E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySellTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				735F698D1E53D2CB0005A9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735F698E1E53D2CB0005A9C8 /* Build configuration list for PBXNativeTarget "HotchkissBuySellUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				735F69901E53D2CB0005A9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
