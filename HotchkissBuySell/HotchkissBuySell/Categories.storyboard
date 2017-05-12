@@ -6,25 +6,45 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Categories Table View Controller-->
         <scene sceneID="7Ao-Bw-HF6">
             <objects>
-                <tableViewController id="Zu9-ZB-Za3" sceneMemberID="viewController">
+                <tableViewController id="Zu9-ZB-Za3" customClass="CategoriesTableViewController" customModule="HotchkissBuySell" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ab7-wH-lBd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="vvz-mI-iWe">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="vvz-mI-iWe" customClass="CategoriesTableViewCell" customModule="HotchkissBuySell" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vvz-mI-iWe" id="PIx-kR-Caj">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIa-pW-UOt">
+                                            <rect key="frame" x="8" y="8" width="182" height="28"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="182" id="FWC-gH-Wc4"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="BIa-pW-UOt" firstAttribute="top" secondItem="PIx-kR-Caj" secondAttribute="topMargin" id="R8p-xM-1Oi"/>
+                                        <constraint firstItem="BIa-pW-UOt" firstAttribute="centerY" secondItem="PIx-kR-Caj" secondAttribute="centerY" id="VOc-Di-RXi"/>
+                                        <constraint firstItem="BIa-pW-UOt" firstAttribute="leading" secondItem="PIx-kR-Caj" secondAttribute="leadingMargin" id="xaC-sf-X1O"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="categoryNameLabel" destination="BIa-pW-UOt" id="f5D-kU-34t"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -35,7 +55,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Idn-fQ-ezq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110" y="65"/>
+            <point key="canvasLocation" x="109.59999999999999" y="64.31784107946028"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="kcb-U8-qzV">
@@ -63,6 +83,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiI-UR-ecU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="110" y="716"/>
         </scene>
     </scenes>
 </document>

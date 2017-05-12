@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3048FD1EC67A5600801503 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3048FC1EC67A5600801503 /* CategoriesTableViewController.swift */; };
+		3F3048FF1EC67A8800801503 /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3048FE1EC67A8800801503 /* CategoriesTableViewCell.swift */; };
 		3F77CC5D1EB4081400152B0B /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F77CC5C1EB4081400152B0B /* Categories.storyboard */; };
 		3FBDA6F91E9462D1000E0146 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDA6F81E9462D1000E0146 /* Login.storyboard */; };
 		735F69641E53D2CA0005A9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F69631E53D2CA0005A9C8 /* AppDelegate.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F3048FC1EC67A5600801503 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		3F3048FE1EC67A8800801503 /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
 		3F77CC5C1EB4081400152B0B /* Categories.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Categories.storyboard; sourceTree = "<group>"; };
 		3FBDA6F81E9462D1000E0146 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		735F69601E53D2CA0005A9C8 /* HotchkissBuySell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotchkissBuySell.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +122,8 @@
 				735F696F1E53D2CB0005A9C8 /* Info.plist */,
 				3FBDA6F81E9462D1000E0146 /* Login.storyboard */,
 				3F77CC5C1EB4081400152B0B /* Categories.storyboard */,
+				3F3048FC1EC67A5600801503 /* CategoriesTableViewController.swift */,
+				3F3048FE1EC67A8800801503 /* CategoriesTableViewCell.swift */,
 			);
 			path = HotchkissBuySell;
 			sourceTree = "<group>";
@@ -282,7 +288,9 @@
 				73CB63F31E9463FD00283D07 /* Item.swift in Sources */,
 				735F69661E53D2CA0005A9C8 /* ViewController.swift in Sources */,
 				73CB63EF1E94624C00283D07 /* MainTableViewController.swift in Sources */,
+				3F3048FD1EC67A5600801503 /* CategoriesTableViewController.swift in Sources */,
 				735F69641E53D2CA0005A9C8 /* AppDelegate.swift in Sources */,
+				3F3048FF1EC67A8800801503 /* CategoriesTableViewCell.swift in Sources */,
 				73CB63F11E94637600283D07 /* Dataholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
