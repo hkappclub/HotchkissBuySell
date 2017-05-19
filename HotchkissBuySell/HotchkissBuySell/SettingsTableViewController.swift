@@ -1,16 +1,21 @@
 //
-//  CategoriesTableViewController.swift
+//  SettingsTableViewController.swift
 //  HotchkissBuySell
 //
-//  Created by Student on 5/12/17.
+//  Created by Daniel Kim on 5/12/17.
 //  Copyright © 2017 Daniel Kim. All rights reserved.
 //
 
+/*
+ Basic Profile Cell
+ Credits Cell
+ Sign-out Cell
+ Notifications
+*/
+
 import UIKit
 
-class CategoriesTableViewController: UITableViewController {
-    
-    let categoryManager = CategoryManager()
+class SettingsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,31 +36,23 @@ class CategoriesTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return categoryManager.categoryNames.count
+        return 0
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! CategoriesTableViewCell
-        
-        let row = indexPath.row
-        
-        cell.categoryNameLabel.text = categoryManager.categoryNames[row]
-        print(categoryManager.categoryNames[row])
-        print("blah")
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
 
         return cell
     }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.

@@ -24,4 +24,13 @@ struct CategoryManager {
         "Miscellaneous",
         "Decorations"
     ]
+    
+    var clothingItems = [
+        "Used Shirt",
+        "Shoes",
+        "Squash pants",
+        "Ultimate hat",
+        "Dress",
+        "Vineyard vine tie"
+    ]
 }

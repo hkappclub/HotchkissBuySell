@@ -1,19 +1,20 @@
 //
-//  CategoriesTableViewController.swift
+//  IndividualCategoryTableViewController.swift
 //  HotchkissBuySell
 //
-//  Created by Student on 5/12/17.
+//  Created by Daniel Kim on 5/19/17.
 //  Copyright © 2017 Daniel Kim. All rights reserved.
 //
 
 import UIKit
 
-class CategoriesTableViewController: UITableViewController {
+class IndividualCategoryTableViewController: UITableViewController {
     
-    let categoryManager = CategoryManager()
+    let categoryManager =  CategoryManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -36,21 +37,16 @@ class CategoriesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return categoryManager.categoryNames.count
+        return categoryManager.clothingItems.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! CategoriesTableViewCell
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "individualCategoryCell", for: indexPath) as! IndividualCategoryTableViewCell
+
         let row = indexPath.row
         
-        cell.categoryNameLabel.text = categoryManager.categoryNames[row]
-        print(categoryManager.categoryNames[row])
-        print("blah")
-        
-
+        cell.itemNameLabel.text = categoryManager.clothingItems[row]
         // Configure the cell...
 
         return cell
